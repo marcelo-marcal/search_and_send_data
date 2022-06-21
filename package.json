@@ -1,0 +1,25 @@
+{
+  "name": "api_all_strategy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Ramon Mattjie",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "gitlab": "^14.2.2",
+    "jsonpath": "^1.1.1",
+    "knex": "^0.95.15",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "oracledb": "5.3",
+    "sucrase": "^3.20.3",
+    "xpress": "^2.4.6"
+  }
+}
